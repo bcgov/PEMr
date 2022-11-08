@@ -1,11 +1,19 @@
 Package: PEMr
-Title: What the Package Does (One Line, Title Case)
+Title: Meta package for development of machine-learning predictive ecosystem maps
 Version: 0.0.0.9000
 Authors@R: c(
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre")),
+    person("Gen", "Perkins", , "first.last@example.com", role = c("aut", "cre")),
+    person("Colin", "Chisholm", , "first.last@example.com", role = c("aut", "cre")),
+    person("Kiri", "Daust", , "first.last@example.com", role = c("aut", "cre")),
+    person("Will", "MacKenzie", , "will.mackenzie@gov.bc.ca", role = c("aut")),
     person("Province of British Columbia", role = "cph")
   )
-Description: What the package does (one paragraph).
+Description: This package is the umbrella package for 4 other packages that contain
+the functions for constructing a machine learning predictive ecosystem maps.
+1)PEMprepr for import and preparation of model inputs; 
+2)PEMsamplr for building sample plans and preparing collected field data; 
+3)PEMmodelr for building and evaluating a machine-learned model;
+4)PEMmapr for creating final raster and vector maps from the ML model
 License: Apache License (== 2.0) | file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
