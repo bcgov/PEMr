@@ -2,7 +2,7 @@
 title: "PEMr"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{PEMr}
+  #%\VignetteIndexEntry{PEMr}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -15,5 +15,20 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(PEMr)
+#library(PEMr)
+
+```
+
+## Project Set up. 
+
+1) Set up a new project to house all data.  ie. "Deception". 
+2) Generate folder structure
+
+```{r}
+
+setupfolders()
+
+# run the function
+setupfolders(AOI)
+
 ```
