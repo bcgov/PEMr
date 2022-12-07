@@ -14,21 +14,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
-#library(PEMr)
+##Vinettes
 
-```
-
-## Project Set up. 
-
-1) Set up a new project to house all data.  ie. "Deception". 
-2) Generate folder structure
-
-```{r}
-
-setupfolders()
-
-# run the function
-setupfolders(AOI)
-
-```
+Vinettes for each part of the project can be found within each of the packasges (PEMprepr, PEMsamplr, PEMmodler)
