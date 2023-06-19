@@ -1,7 +1,12 @@
 Package: PEMr
 Title: Meta package for development of machine-learning predictive ecosystem maps
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R: c(
+    person("Gen", "Perkins", , "genevieve.c.perkins@gmail.com", role = c("aut", "cre")),
+    person("Colin", "Chisholm", , "first.last@example.com", role = c("aut")),
+    person("Kiri", "Daust", , "kiri.daust@gov.bc.ca", role = c("aut"),
+    person("Will", "MacKenzie", , "will.mackenzie@gov.bc.ca", role = c("aut"))
+  )
 Description: to be filled
 License: Apache License (== 2.0) | file LICENSE
 Encoding: UTF-8
