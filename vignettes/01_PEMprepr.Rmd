@@ -28,7 +28,7 @@ knitr::opts_chunk$set(
 #devtools::load_all("D:\\PEM_DATA\\PEMsamplr")
 #devtools::load_all("D:\\PEM_DATA\\PEMprepr")
 
-remotes::install_github("bcgov/PEMr", build_vignettes = TRUE)
+remotes::install_github("bcgov/PEMr", build_vignettes = FALSE)
 
 library(PEMr)
 
