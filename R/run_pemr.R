@@ -4,27 +4,30 @@
 #'
 #' @return TRUE or FALSE
 #' @export
-#'
+#' @author Genevieve Perkins
 #' @examples
 #' run_pemr()
-#'
 
 run_pemr <- function(){
 
-  library(PEMprepr)
+  #library(PEMprepr)
   #library(PEMsamplr)
   #library(PEMmapr)
-#
-#   packages <- c("PEMprepr", "PEMsamplr", "PEMmodler", "PEMmapr")
-#
-#   missing <- setdiff(packages, rownames(installed.packages()))
-#
-#   for(i in missing){
-#
-#     tpackage <- paste0("bcgov/",i)
-#     remotes::install_github(tpackage, build_vignettes = TRUE)
-#
-#     return(TRUE)
-#   }
+
+  packages <- c("PEMprepr", "PEMsamplr", "PEMmodelr")
+
+  missing <- setdiff(packages, rownames(installed.packages()))
+
+  for(i in missing){
+
+    tpackage <- paste0("bcgov/",i)
+    remotes::install_github(tpackage, build_vignettes = FALSE)
+
+    return(TRUE)
+  }
+
+  library(PEMprepr)
+  library(PEMsamplr)
+  library(PEMmodelr)
 
 }

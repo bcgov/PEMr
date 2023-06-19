@@ -16,4 +16,13 @@ knitr::opts_chunk$set(
 
 ##Vinettes
 
-Vinettes for each part of the project can be found within each of the packasges (PEMprepr, PEMsamplr, PEMmodler)
+Vinettes for each part of the project can be found within each of the packages (PEMprepr, PEMsamplr, PEMmodler)
+
+```{r}
+
+library(pemr)
+
+run_pemr()
+
+```
+
