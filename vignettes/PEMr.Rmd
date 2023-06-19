@@ -19,8 +19,9 @@ knitr::opts_chunk$set(
 Vinettes for each part of the project can be found within each of the packages (PEMprepr, PEMsamplr, PEMmodler)
 
 ```{r}
+remotes::install_github("bcgov/PEMr", build_vignettes = TRUE)
 
-library(pemr)
+library(PEMr)
 
 run_pemr()
 

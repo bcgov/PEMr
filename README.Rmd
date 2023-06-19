@@ -68,9 +68,11 @@ The broader **Predictive Ecosystem Mapping Methods Development project** is a co
 You can install `PEMr`development version from GitHub, using the [remotes](https://cran.r-project.org/package=remotes) package:
 
 ```{r eval=FALSE}
+
 install.packages("remotes")
 remotes::install_github("bcgov/PEMr")
 library(PEMr)
+
 ```
 
 

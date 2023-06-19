@@ -8,11 +8,11 @@ Authors@R: c(
     person("Will", "MacKenzie", , "will.mackenzie@gov.bc.ca", role = c("aut")),
     person("Province of British Columbia", role = "cph")
   )
-Description:to be filled
+Description: to be filled
 License: Apache License (== 2.0) | file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
 Suggests: 
     knitr,
     rmarkdown
