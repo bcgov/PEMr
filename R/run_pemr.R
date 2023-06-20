@@ -20,6 +20,7 @@ run_pemr <- function(){
 
   for(i in missing){
 
+    remotes::install_github("Rfast", build_vignettes = FALSE)
     tpackage <- paste0("bcgov/",i)
     remotes::install_github(tpackage, build_vignettes = FALSE)
 
